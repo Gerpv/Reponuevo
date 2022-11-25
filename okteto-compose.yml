@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+   worker:
+    build: .
+    environment:
+       - bot_token=${bot_token}
+       - tl_admin_user=${tl_admin_user}
+       - api_id=${api_id}
+       - api_hash${api_hash}
