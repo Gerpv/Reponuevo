@@ -460,7 +460,7 @@ def init():
         print('Bot is Started!')
 
         try:
-            loopevent = asyncio.get_runing_loop();
+            loopevent = asyncio.get_running_loop();
         except:
             try:
                 loopevent = asyncio.get_event_loop();
